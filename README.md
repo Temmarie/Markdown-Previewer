@@ -25,6 +25,18 @@ The ultimate markdown application for web developers. Streamline your workflow, 
 
 ---
 
+## 📷 *Screenshots*  
+<table>
+  <tr>
+    <td>
+      <h3>Markkit Markdown Previewer</h3>
+      <img src="https://github.com/Temmarie/Markdown-Previewer/blob/main/src/assets/screenshot.png" 
+           alt="Welcome" width="400px" height="300px"/>
+    </td>
+  </tr>
+</table>
+
+
 ## 🛠 *Tech Stack*  
 ### *Frontend:*  
 - ⚛ *React.js* (Component-based UI)  
@@ -36,34 +48,24 @@ The ultimate markdown application for web developers. Streamline your workflow, 
 ## 🏗 *Setup & Installation*  
 
 ### *1️⃣ Clone the Repository*  
-bash
+```bash
 git clone https://github.com/Temmarie/Markdown-Previewer.git
 cd Markdown-Previewer
+```
 
 
 ### *2️⃣ Install Dependencies*  
-bash
+```bash
 npm install
-
+```
 
 ### *3️⃣ Run the Development Server*  
-bash
+```bash
 npm run dev
+```
 
 The app will be available at **http://localhost:5173/**
 
----
-
-## 📷 *Screenshots*  
-<table>
-  <tr>
-    <td>
-      <h3>HomePage</h3>
-      <img src="https://github.com/Temmarie/Quiz-it/blob/main/src/img/welcome%20page.png" 
-           alt="Welcome" width="400px" height="300px"/>
-    </td>
-  </tr>
-</table>
 
 ---
 
