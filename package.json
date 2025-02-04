@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.3",
     "autoprefixer": "^10.4.20",
+    "highlight.js": "^11.11.1",
     "marked": "^15.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

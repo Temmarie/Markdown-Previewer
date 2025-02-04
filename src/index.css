@@ -1,12 +1,156 @@
 @import "tailwindcss";
 
-
+/* General styles */
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-variation-settings: "wdth" 100;
 }
 
-code, pre {
+/* Ensure markdown preview has consistent styling */
+#preview {
+    max-width: 100%;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+/* Headers */
+#preview h1 { font-size: 2rem; font-weight: bold; margin-bottom: 0.5rem; }
+#preview h2 { font-size: 1.75rem; font-weight: bold; margin-bottom: 0.5rem; }
+#preview h3 { font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; }
+#preview h4 { font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem; }
+#preview h5 { font-size: 1.125rem; font-weight: bold; margin-bottom: 0.5rem; }
+#preview h6 { font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem; }
+
+/* Paragraphs */
+#preview p {
+    margin-bottom: 1rem;
+}
+
+#preview img {
+    max-width: 200px;
+    height: auto;
+    margin: 1rem 0;
+}
+/* Lists */
+#preview ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#preview ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#preview li {
+    margin-bottom: 0.5rem;
+}
+
+/* Blockquotes */
+#preview blockquote {
+    border-left: 4px solid #5C1AF4;
+    padding-left: 1rem;
+    color: #555555;
+    font-style: italic;
+    margin: 1rem 0;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Inline Code */
+#preview code {
     font-family: "Fira Code", monospace;
+    background-color: #afb8c133;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    color: #d63384;
+}
+
+/* Code Blocks */
+#preview pre {
+    background-color: #afb8c133;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: "Fira Code", monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Ensure pre > code works well */
+#preview pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* Links */
+#preview a {
+    color: #5C1AF4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#preview a:hover {
+    text-decoration: underline;
+}
+
+#preview hr {
+    box-sizing: content-box;
+    overflow: hidden;
+    background: transparent;
+    border-bottom: 1px solid #d0d7deb3;
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #d0d7de;
+    border: 0;
+}
+
+/* Tables */
+#preview table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+#preview th, #preview td {
+    border: 1px solid #dddddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#preview th {
+    background-color: #f5f5f5;
+}
+
+/* Task Lists */
+#preview input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Dark Mode Support */
+.dark-mode #preview {
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+.dark-mode #preview blockquote {
+    background: #222;
+    border-left-color: #bb86fc;
+}
+
+.dark-mode #preview pre {
+    background: #333;
+    color: #ddd;
+}
+
+.dark-mode #preview table th {
+    background-color: #444;
 }
