@@ -52,7 +52,7 @@ The **ultimate** markdown previewer for developers. Write markdown on the left, 
 ### 4️⃣ Links & Images  
 [🌐 Visit Markkit on GitHub](https://github.com/Temmarie/Markdown-Previewer/)  
 
-![Markkit Logo](./src/assets/markit.png)
+![Markkit Logo](/markit.png)
 
 ---
 
