@@ -55,7 +55,15 @@ The app will be available at **http://localhost:5173/**
 ---
 
 ## 📷 *Screenshots*  
-(Add some screenshots of your app here!)
+<table>
+  <tr>
+    <td>
+      <h3>HomePage</h3>
+      <img src="https://github.com/Temmarie/Quiz-it/blob/main/src/img/welcome%20page.png" 
+           alt="Welcome" width="400px" height="300px"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
