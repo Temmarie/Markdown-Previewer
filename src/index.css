@@ -7,6 +7,7 @@
     font-variation-settings: "wdth" 100;
 }
 
+
 /* Ensure markdown preview has consistent styling */
 #preview {
     max-width: 100%;
@@ -125,10 +126,6 @@
     border: 1px solid #dddddd;
     padding: 0.5rem;
     text-align: left;
-}
-
-#preview th {
-    background-color: #f5f5f5;
 }
 
 /* Task Lists */
